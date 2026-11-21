@@ -1,0 +1,7 @@
+# Copy this file to local.properties (which is git-ignored) and fill in your values.
+# Android Studio automatically populates sdk.dir when you open the project.
+# sdk.dir=C\:\\Users\\YOUR_USER\\AppData\\Local\\Android\\Sdk
+
+# Optional: Gemini API key for local development only (do NOT put real keys in this example file).
+# For GitHub Actions cloud builds, add GEMINI_API_KEY in Repo Settings -> Secrets and variables -> Actions.
+GEMINI_API_KEY=

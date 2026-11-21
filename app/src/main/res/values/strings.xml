@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PulseSpan</string>
+    <string name="health_permissions_title">PulseSpan &amp; Health Connect Privacy</string>
+    <string name="health_permissions_description">
+        PulseSpan reads Sleep, Heart Rate Variability (HRV), Resting Heart Rate, Heart Rate, Steps, Active Calories, and Exercise sessions synced from your Google Fitbit tracker via Android Health Connect.
+        All biometric calculations run locally on your device to compute your daily Sleep, Recovery, Strain, and Longevity Scores.
+        PulseSpan never sells your health data. If you enable Gemini AI Coaching, only summarized daily scores and trends are used to generate personalized readiness guidance.
+    </string>
+</resources>
