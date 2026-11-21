@@ -73,7 +73,7 @@ object HealthScoreEngine {
         // Ideal restorative fraction is around 0.42 (e.g., 20% deep + 22% REM)
         val restorativePoints = ((restorativeRatio / 0.42).coerceIn(0.0, 1.0)) * 30.0
 
-        val efficiencyRatio = (sleep.efficiencyPercent / 92.0).coerceIn(0.0, 1.0)
+        val efficiencyRatio = ((sleep.efficiencyPercent - 65.0) / 30.0).coerceIn(0.0, 1.0)
         val efficiencyPoints = efficiencyRatio * 20.0
 
         return (durationPoints + restorativePoints + efficiencyPoints)
